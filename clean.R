@@ -1,4 +1,5 @@
 
 library(dataset)
+dataset(USArrests)
 
 
