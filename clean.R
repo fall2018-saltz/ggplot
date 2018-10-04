@@ -15,5 +15,5 @@ df_usa<- cbind(df_usa, n= row.names(df_usa))
 df_usa$n<- as.character(df_usa$n)
 str(df_usa)
 str(dfStates)
-result<- merge(df_usa,dfStates,by.x= df_usa$n, by.y= dfStates$stateName)
+
 head(dfStates,2)
