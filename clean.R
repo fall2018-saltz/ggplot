@@ -11,5 +11,4 @@ head(dfStates,2)
 head(USArrests,2)
 
 df_usa<- USArrests
-merge(df_usa,dfStates, by.x= rownames(df_usa)
-e<- rownames(df_usa)
+df_usa<- cbind(df_usa, n= row.names(df_usa))
