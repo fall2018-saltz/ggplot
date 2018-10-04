@@ -7,3 +7,4 @@ df_fun <- function(states) {
  
 dfStates<- df_fun(raw_data)
 head(dfStates,2)
+
