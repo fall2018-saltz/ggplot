@@ -12,4 +12,4 @@ head(USArrests,2)
 
 df_usa<- USArrests
 df_usa<- cbind(df_usa, n= row.names(df_usa))
-df_usa$n<- as.charater(df_usa$n)
+df_usa$n<- as.character(df_usa$n)
