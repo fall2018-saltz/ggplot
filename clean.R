@@ -17,3 +17,4 @@ str(df_usa)
 str(dfStates)
 
 head(dfStates,2)
+result<- merge(df_usa,dfStates,by.x= "n", by.y= "stateName")
