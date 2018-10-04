@@ -1,5 +1,5 @@
 
 df<- USArrests
 df
-dc<- read.csv(file.chose())
+dc<- read.csv(file.choose())
 
