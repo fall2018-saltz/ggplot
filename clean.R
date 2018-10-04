@@ -1,5 +1,4 @@
 
-library(dataset)
-dataset(USArrests)
+df<- USArrests
 
 
