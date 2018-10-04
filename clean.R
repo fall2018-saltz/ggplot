@@ -10,3 +10,4 @@ head(dfStates,2)
 
 head(USArrests,2)
 
+df_usa<- USArrests
