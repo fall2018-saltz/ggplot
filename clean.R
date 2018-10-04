@@ -1,5 +1,3 @@
 
-df<- USArrests
-df
-dc<- read.csv(file.choose())
+dfStates<- function(states) {states<- states[-1,-1:-4] 
 
