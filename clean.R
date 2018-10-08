@@ -21,4 +21,3 @@ result<- merge(df_usa,dfStates,by.x= "n", by.y= "stateName")
 head(result,2)
 str(result)
 
-insatll.package("ggplot2")
