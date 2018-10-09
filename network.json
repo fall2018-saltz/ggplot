@@ -17,22 +17,22 @@
         {
             "ports": [
                 {
-                    "input": "result",
-                    "type": "csv"
-                }
-            ],
-            "source": "data.csv",
-            "target": "script2537.R"
-        },
-        {
-            "ports": [
-                {
                     "output": "result",
                     "type": "csv"
                 }
             ],
             "source": "clean.R",
             "target": "data.csv"
+        },
+        {
+            "ports": [
+                {
+                    "input": "result",
+                    "type": "csv"
+                }
+            ],
+            "source": "data.csv",
+            "target": "script2537.R"
         }
     ],
     "nodes": [
@@ -52,6 +52,6 @@
             "name": "script2537.R"
         }
     ],
-    "updated_at": "2018-10-09 19:38:33",
+    "updated_at": "2018-10-09 19:38:52",
     "url": "https://github.com/fall2018-saltz/ggplot"
 }
