@@ -23,6 +23,16 @@
             ],
             "source": "clean.R",
             "target": "data.csv"
+        },
+        {
+            "ports": [
+                {
+                    "input": "data.csv",
+                    "type": "csv"
+                }
+            ],
+            "source": "data.csv",
+            "target": "script5906.R"
         }
     ],
     "nodes": [
@@ -42,6 +52,6 @@
             "name": "script5906.R"
         }
     ],
-    "updated_at": "2018-10-09 04:05:06",
+    "updated_at": "2018-10-09 04:05:39",
     "url": "https://github.com/fall2018-saltz/ggplot"
 }
