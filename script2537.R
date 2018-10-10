@@ -29,4 +29,6 @@ g8<-ggplot(result, aes(x= result$population, y= result$percentOver18, size= resu
   geom_point( shape=19, color="blue", fill="red") + theme(axis.text.x = element_text(angle = 45, hjust=1))
 g8
 
+library(dplyr)
+
 
