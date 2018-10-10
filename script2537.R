@@ -29,6 +29,4 @@ g8<-ggplot(result, aes(x= result$population, y= result$percentOver18, size= resu
   geom_point( shape=19, color="blue", fill="red") + theme(axis.text.x = element_text(angle = 45, hjust=1))
 g8
 
-g9<- ggplot(m, aes(x= result$population, y= result$percentOver18) + geom_point(aes( size= result$Murder, colour= result$Murder )) + scale_color_gradient2(midpoint= mean(result$Murder), low=”white”, mid= “red”, high= “blue”) + ggtitle(“Scatter Plot”)
-g9
 
