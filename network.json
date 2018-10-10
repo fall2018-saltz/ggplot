@@ -182,9 +182,6 @@
             "name": "plot2480.png"
         },
         {
-            "name": "plot945.png"
-        },
-        {
             "assigned_to": "sahmed",
             "desc": "",
             "name": "script3020.R",
@@ -194,6 +191,6 @@
             "name": "plot8397.png"
         }
     ],
-    "updated_at": "2018-10-10 19:57:46",
+    "updated_at": "2018-10-10 19:58:03",
     "url": "https://github.com/fall2018-saltz/ggplot"
 }
