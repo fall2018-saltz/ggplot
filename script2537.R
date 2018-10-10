@@ -25,5 +25,8 @@ g7 + labs(x= "State", "Murder rate") +ggtitle("Total Murders")
 g7
 
 
+g8<-ggplot(m, aes(x= result$population, y= result$percentOver18, size= result$Murder)) +
+  geom_point( shape=19, color="blue", fill="red") + theme(axis.text.x = element_text(angle = 45, hjust=1))
+g8
 
 
