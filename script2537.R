@@ -1,6 +1,7 @@
 
 library(ggplot2) ## library function is used to be able to use the function of the package ggplot2
 
+#to plot the histogram of the population geom_histogram() is used, binwidth is calculated using the formula- range/no.of.obs
 g1<- ggplot(result, aes(x= result$population)) + geom_histogram(binwidth= 779147, color = "black", fill= "white")+ ggtitle("states population")
 g1
 
