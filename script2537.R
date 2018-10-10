@@ -9,9 +9,13 @@ g1
 g2<- ggplot(result, aes(x= result$Murder)) + geom_histogram(binwidth = 1, color = "black", fill= "white")+ ggtitle("states murder rate")
 g2
 
-h1<- ggplot(result, aes(x= result$Assault)) + geom_histogram(binwidth = 5, color = "black", fill= "white")+ ggtitle("states murder rate")
+## To plot Assult rate, rape rate, Urban Population, same code is used but the arguments to aes will change. Also the binwidth will change depending upon the variable and its range.
+h1<- ggplot(result, aes(x= result$Assault)) + geom_histogram(binwidth = 5, color = "black", fill= "white")+ ggtitle("states assult rate")
 h1
-
+h2<- ggplot(result, aes(x= result$UrbanPop)) + geom_histogram(binwidth = 1, color = "black", fill= "white")+ ggtitle("states urban popultaion rate")
+h2
+h3<- ggplot(result, aes(x= result$Rape)) + geom_histogram(binwidth = 5, color = "black", fill= "white")+ ggtitle("states murder rate")
+h3
 
 g3<- ggplot(result, aes(x= factor(0), y= result$population)) + geom_boxplot()+ ggtitle("states population boxplot")
 g3
