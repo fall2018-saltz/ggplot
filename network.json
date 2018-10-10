@@ -153,6 +153,16 @@
             ],
             "source": "script2537.R",
             "target": "plot945.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "result",
+                    "type": "csv"
+                }
+            ],
+            "source": "data.csv",
+            "target": "script3020.R"
         }
     ],
     "nodes": [
@@ -215,6 +225,6 @@
             "name": "script3020.R"
         }
     ],
-    "updated_at": "2018-10-10 19:47:59",
+    "updated_at": "2018-10-10 19:48:17",
     "url": "https://github.com/fall2018-saltz/ggplot"
 }
