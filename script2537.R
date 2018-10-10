@@ -31,4 +31,5 @@ g8
 
 library(dplyr)
 m<- group_by(result,result$n)
+m<- summarise(m,tot_mur= sum(m$Murder)
 
