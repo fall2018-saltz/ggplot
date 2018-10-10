@@ -117,16 +117,6 @@
         {
             "ports": [
                 {
-                    "output": "h2",
-                    "type": "png"
-                }
-            ],
-            "source": "script2537.R",
-            "target": "plot2137.png"
-        },
-        {
-            "ports": [
-                {
                     "output": "g9",
                     "type": "png"
                 }
@@ -143,6 +133,16 @@
             ],
             "source": "script2537.R",
             "target": "plot2765.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "h2",
+                    "type": "png"
+                }
+            ],
+            "source": "script2537.R",
+            "target": "plot2137.png"
         }
     ],
     "nodes": [
@@ -198,6 +198,6 @@
             "name": "plot3878.png"
         }
     ],
-    "updated_at": "2018-10-10 05:27:21",
+    "updated_at": "2018-10-10 05:27:25",
     "url": "https://github.com/fall2018-saltz/ggplot"
 }
