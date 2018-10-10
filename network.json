@@ -89,12 +89,6 @@
             "name": "data.csv"
         },
         {
-            "assigned_to": "sahmed",
-            "desc": "",
-            "name": "script2537.R",
-            "task_status": "in progress"
-        },
-        {
             "name": "plot4827.png"
         },
         {
@@ -105,8 +99,14 @@
         },
         {
             "name": "plot2039.png"
+        },
+        {
+            "assigned_to": "sahmed",
+            "desc": "",
+            "name": "script2537.R",
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-10 03:05:12",
+    "updated_at": "2018-10-10 03:08:12",
     "url": "https://github.com/fall2018-saltz/ggplot"
 }
