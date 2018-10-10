@@ -66,8 +66,11 @@
             "desc": "",
             "name": "clean.R",
             "task_status": "completed"
+        },
+        {
+            "name": "plot9609.png"
         }
     ],
-    "updated_at": "2018-10-10 04:07:28",
+    "updated_at": "2018-10-10 04:08:16",
     "url": "https://github.com/fall2018-saltz/ggplot"
 }
