@@ -42,7 +42,7 @@ g7
 g8<-ggplot(result, aes(x= result$population, y= result$percentOver18, size= result$Murder)) +
   geom_point( shape=19, color="blue", fill="red") + theme(axis.text.x = element_text(angle = 45, hjust=1))
 g8
-c1<- ggplot(result, aes(x= result$population)) + geom_histogram(color = "black", fill= "white")+ ggtitle("states population")
+c1<- ggplot(result, aes(x= result$population)) + geom_histogram(binwidth= 779147, bins= 30, color = "black", fill= "white")+ ggtitle("states population")
 c1
 
 
