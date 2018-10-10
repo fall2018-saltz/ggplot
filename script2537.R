@@ -18,4 +18,4 @@ h1
 
 h<-ggplot(result, aes(x= reorder(stateName, Murder), y= Murder)) +
   geom_col( color="blue", fill="white") + theme(axis.text.x = element_text(angle = 45, hjust=1))+ coord_flip()
-h
+h + labs(x= "State", "Murder rate")
