@@ -81,11 +81,6 @@
             "name": "scprc_est_2017_18_pop_res.csv"
         },
         {
-            "assigned_to": "sahmed",
-            "name": "clean.R",
-            "task_status": "in progress"
-        },
-        {
             "name": "data.csv"
         },
         {
@@ -105,8 +100,14 @@
             "desc": "",
             "name": "script2537.R",
             "task_status": "in progress"
+        },
+        {
+            "assigned_to": "sahmed",
+            "desc": "",
+            "name": "clean.R",
+            "task_status": "completed"
         }
     ],
-    "updated_at": "2018-10-10 03:08:12",
+    "updated_at": "2018-10-10 03:14:25",
     "url": "https://github.com/fall2018-saltz/ggplot"
 }
