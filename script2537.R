@@ -1,6 +1,5 @@
 
 library(ggplot2)
-g<- ggplot(result, aes(x= population)) 
-g<- g+ geom_histogram(binwidth = 5000, color = "black", fill= "white")
+g<- ggplot(result, aes(x= result$population)) + geom_histogram(binwidth = 5, color = "black", fill= "red")
 g<- g + ggtitle("states population")
 g
