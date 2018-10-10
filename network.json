@@ -39,6 +39,10 @@
                 {
                     "output": "g1",
                     "type": "png"
+                },
+                {
+                    "output": "g2",
+                    "type": "png"
                 }
             ],
             "source": "script2537.R",
@@ -67,6 +71,6 @@
             "name": "plot4827.png"
         }
     ],
-    "updated_at": "2018-10-10 02:00:22",
+    "updated_at": "2018-10-10 02:01:56",
     "url": "https://github.com/fall2018-saltz/ggplot"
 }
