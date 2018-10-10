@@ -133,6 +133,16 @@
             ],
             "source": "script3020.R",
             "target": "plot6527.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "g5",
+                    "type": "png"
+                }
+            ],
+            "source": "script3020.R",
+            "target": "plot5509.png"
         }
     ],
     "nodes": [
@@ -191,6 +201,6 @@
             "name": "plot5509.png"
         }
     ],
-    "updated_at": "2018-10-10 19:58:20",
+    "updated_at": "2018-10-10 19:58:41",
     "url": "https://github.com/fall2018-saltz/ggplot"
 }
