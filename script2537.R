@@ -19,3 +19,7 @@ h1
 h<-ggplot(result, aes(x= reorder(stateName, Murder), y= Murder)) +
   geom_col( color="blue", fill="white") + theme(axis.text.x = element_text(angle = 45, hjust=1))+ coord_flip()
 h + labs(x= "State", "Murder rate")
+
+h1<-ggplot(m, aes(x= pop, y= percentOver18, size= Murder)) +
+  geom_point( shape=19, color="blue", fill="red") + theme(axis.text.x = element_text(angle = 45, hjust=1))
+h1
