@@ -10,6 +10,10 @@ g3
 g4<- ggplot(result, aes(x= factor(0), y= result$Murder)) + geom_boxplot()+ ggtitle("states murder rate boxplot")
 g4
 
+g5<-ggplot(result, aes(x= reorder(result$stateName, result$Murder), y= result$Murder)) +
+  geom_col( color="blue", fill="white") + theme(axis.text.x = element_text(angle = 45, hjust=1))
+g5
+
 
 
 
