@@ -30,5 +30,5 @@ g8<-ggplot(result, aes(x= result$population, y= result$percentOver18, size= resu
 g8
 
 library(dplyr)
-
+m<- group_by(result$n)
 
