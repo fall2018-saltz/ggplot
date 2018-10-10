@@ -25,6 +25,7 @@ g3
 g4<- ggplot(result, aes(x= factor(0), y= result$Murder)) + geom_boxplot()+ ggtitle("states murder rate boxplot")
 g4
 
+##I like boxplot more than an histogram personaly, because just by looking at the graph I am able to tell the maximum, minimum median, 25th percentile and 75th pertentiles.
 g5<-ggplot(result, aes(x= result$n , y= result$Murder)) +
   geom_col( color="blue", fill="white") + theme(axis.text.x = element_text(angle = 45, hjust=1))
 g5
