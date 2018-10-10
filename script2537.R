@@ -17,6 +17,7 @@ h2
 h3<- ggplot(result, aes(x= result$Rape)) + geom_histogram(binwidth = 5, color = "black", fill= "white")+ ggtitle("states murder rate")
 h3
 
+#To plot a box plot for population, ggplot() is used with aes as an argument taking population on y axis. 
 g3<- ggplot(result, aes(x= factor(0), y= result$population)) + geom_boxplot()+ ggtitle("states population boxplot")
 g3
 
