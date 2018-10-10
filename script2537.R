@@ -5,20 +5,3 @@ library(ggplot2)
 g2<- ggplot(result, aes(x= result$Murder)) + geom_histogram(binwidth = 5, color = "black", fill= "white")+ ggtitle("states murder rate")
 g2
 
-g3<- ggplot(result, aes(x= factor(0), y= result$population)) + geom_boxplot()+ ggtitle("states population boxplot")
-g3
-
-g4<- ggplot(result, aes(x= factor(0), y= result$Murder)) + geom_boxplot()+ ggtitle("states murder rate boxplot")
-g4
-
-h1<-ggplot(result, aes(x= reorder(result$stateName, result$Murder), y= result$Murder)) +
-  geom_col( color="blue", fill="white") + theme(axis.text.x = element_text(angle = 45, hjust=1))
-h1
-
-h<-ggplot(result, aes(x= reorder(result$stateName, result$Murder), y= result$Murder)) +
-  geom_col( color="blue", fill="white") + theme(axis.text.x = element_text(angle = 45, hjust=1))+ coord_flip()
-h + labs(x= "State", "Murder rate")
-
-h1<-ggplot(m, aes(x= result$population, y= result$percentOver18, size= result$Murder)) +
-  geom_point( shape=19, color="blue", fill="red") + theme(axis.text.x = element_text(angle = 45, hjust=1))
-h1
