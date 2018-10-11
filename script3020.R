@@ -18,3 +18,8 @@ g8 <- ggplot(data= result, aes(x=result$n, y=result$Murder, fill=result$percentO
 g8 <- g8 + scale_fill_gradient(low = "plum2", high = "plum4", guide = "colorbar") 
 g8
 
+g8<-ggplot(m, aes(x= m$n , y= m$Murder)) + geom_col(aes(fill= percentOver18))+ theme(axis.text.x = element_text(angle = 45, hjust=1))
+
+g8 + labs(x= "State", "Murder rate") + ggtitle("Total Murders")
+g8
+
