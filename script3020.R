@@ -3,8 +3,7 @@ library(ggplot2)
 g5<-ggplot(result, aes(x= result$n , y= result$Murder)) +
   geom_col( color="blue", fill="white") 
 
-g6<-ggplot(result, aes(x= result$n , y= result$Murder)) +
-  geom_col( color="blue", fill="white") + theme(axis.text.x = element_text(angle = 45, hjust=1))
+g6<-ggplot(result, aes(x= result$n , y= result$Murder)) + geom_col( color="blue", fill="white") + theme(axis.text.x = element_text(angle = 45, hjust=1))
 g6 + labs(x= "State", "Murder rate") + ggtitle("Total Murders")
 g6
 
@@ -15,9 +14,6 @@ g7 + labs(x= "State", "Murder rate") +ggtitle("Total Murders")
 g7
 
 
-g8 <- ggplot(result, aes(x= reorder(result$n, y=result$MurderMurder, fill=result$percentOver18))) 
- + geom_col(stat="identity") + theme(axis.text.x = element_text(angle = 45, hjust=1)) + labs(x= "State", "Murder rate") +ggtitle("Total Murders")
-g8 <- g8 + scale_fill_gradient(low = "plum2", high = "plum4", guide = "colorbar") 
-g8
+
 
 
