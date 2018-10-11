@@ -15,7 +15,7 @@ g7
 
 
 
-g8<-ggplot(m, aes(x= m$n , y= m$Murder)) + geom_col(aes(fill= percentOver18))+ theme(axis.text.x = element_text(angle = 45, hjust=1))
+g8<-ggplot(m, aes(x= result$n , y= result$Murder)) + geom_col(aes(fill= percentOver18))+ theme(axis.text.x = element_text(angle = 45, hjust=1))
 
 g8 + labs(x= "State", "Murder rate") + ggtitle("Total Murders")
 g8
