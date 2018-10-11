@@ -182,7 +182,7 @@
                 }
             ],
             "source": "bar_graph.R",
-            "target": "csvfile1680.csv"
+            "target": "states_mur_tot.csv"
         }
     ],
     "nodes": [
@@ -235,7 +235,7 @@
             "name": "g9.png"
         },
         {
-            "name": "csvfile1680.csv"
+            "name": "states_mur_tot.csv"
         },
         {
             "assigned_to": "sahmed",
@@ -256,6 +256,6 @@
             "task_status": "completed"
         }
     ],
-    "updated_at": "2018-10-11 02:29:39",
+    "updated_at": "2018-10-11 02:30:09",
     "url": "https://github.com/fall2018-saltz/ggplot"
 }
