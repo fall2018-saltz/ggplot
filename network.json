@@ -173,6 +173,16 @@
             ],
             "source": "scatter.R",
             "target": "g9.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "states_mur_tot",
+                    "type": "csv"
+                }
+            ],
+            "source": "script3020.R",
+            "target": "csvfile1680.csv"
         }
     ],
     "nodes": [
@@ -246,6 +256,6 @@
             "name": "csvfile1680.csv"
         }
     ],
-    "updated_at": "2018-10-11 02:11:27",
+    "updated_at": "2018-10-11 02:12:13",
     "url": "https://github.com/fall2018-saltz/ggplot"
 }
