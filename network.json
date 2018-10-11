@@ -241,8 +241,11 @@
             "desc": "Data is cleaned. Unwanted rows and columns are deleted.",
             "name": "clean.R",
             "task_status": "completed"
+        },
+        {
+            "name": "result.csv"
         }
     ],
-    "updated_at": "2018-10-11 03:11:51",
+    "updated_at": "2018-10-11 03:12:06",
     "url": "https://github.com/fall2018-saltz/ggplot"
 }
