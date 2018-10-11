@@ -1,6 +1,10 @@
 
 library(ggplot2) ##library() is used to unpack the gglpot2 package and be able to use the functions within it is 
 
+library(dplyr) ## library() will allow us to use the functions in dplyr package
+result_group<- group_by(result, n) groub_by function will group the result dataframe into the number of states
+states_mur_tot<- summarise(result_group, tot_mur= sum(Murder)) ## summarise() will perform sum() on the murder rate in each group.
+
 ## To plot a bar graph, geom_col()cis used. Here states names are taken on x axis and murder rate on y axis.
 g5<-ggplot(result, aes(x= result$n , y= result$Murder)) + geom_col( color="blue", fill="white") 
 g5
