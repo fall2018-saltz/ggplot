@@ -112,7 +112,7 @@
                 }
             ],
             "source": "data.csv",
-            "target": "script3020.R"
+            "target": "bar_graph.R"
         },
         {
             "ports": [
@@ -121,7 +121,7 @@
                     "type": "png"
                 }
             ],
-            "source": "script3020.R",
+            "source": "bar_graph.R",
             "target": "plot8397.png"
         },
         {
@@ -131,7 +131,7 @@
                     "type": "png"
                 }
             ],
-            "source": "script3020.R",
+            "source": "bar_graph.R",
             "target": "plot6527.png"
         },
         {
@@ -141,7 +141,7 @@
                     "type": "png"
                 }
             ],
-            "source": "script3020.R",
+            "source": "bar_graph.R",
             "target": "plot6837.png"
         },
         {
@@ -151,7 +151,7 @@
                     "type": "png"
                 }
             ],
-            "source": "script3020.R",
+            "source": "bar_graph.R",
             "target": "plot2469.png"
         },
         {
@@ -181,7 +181,7 @@
                     "type": "csv"
                 }
             ],
-            "source": "script3020.R",
+            "source": "bar_graph.R",
             "target": "csvfile1680.csv"
         }
     ],
@@ -239,12 +239,6 @@
         },
         {
             "assigned_to": "sahmed",
-            "desc": "Different bar graphs are ploted",
-            "name": "script3020.R",
-            "task_status": "in progress"
-        },
-        {
-            "assigned_to": "sahmed",
             "desc": "",
             "name": "scatter.R",
             "task_status": "completed"
@@ -254,8 +248,14 @@
             "desc": "Histogram and different box plot graphs are generated",
             "name": "script2537.R",
             "task_status": "completed"
+        },
+        {
+            "assigned_to": "sahmed",
+            "desc": "Different bar graphs are ploted",
+            "name": "bar_graph.R",
+            "task_status": "completed"
         }
     ],
-    "updated_at": "2018-10-11 02:29:05",
+    "updated_at": "2018-10-11 02:29:39",
     "url": "https://github.com/fall2018-saltz/ggplot"
 }
