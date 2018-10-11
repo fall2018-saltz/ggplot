@@ -1,11 +1,7 @@
 
 library(ggplot2) ##library() is used to unpack the gglpot2 package and be able to use the functions within it is 
 
-library(dplyr) ## library() will allow us to use the functions in dplyr package
-result_group<- group_by(result, result$n)##groub_by function will group the result dataframe into the number of states
-states_mur_tot<- summarise(result_group, tot_mur= sum(result$Murder)) ## summarise() will perform sum() on the murder rate in each group.
-#states_mur_tot is a dataframe consisting of sates and their murder rate
-states_mur_tot
+
 
 result$tot_mur= (result$population/100000)* result$Murder
 result$states_mur= round(result$tot_mur)
