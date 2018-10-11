@@ -224,10 +224,15 @@
             "task_status": "completed"
         },
         {
+            "assigned_to": "sahmed",
             "desc": "",
-            "name": "scatter.R"
+            "name": "scatter.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "g9.png"
         }
     ],
-    "updated_at": "2018-10-11 01:38:04",
+    "updated_at": "2018-10-11 01:38:47",
     "url": "https://github.com/fall2018-saltz/ggplot"
 }
