@@ -137,16 +137,6 @@
         {
             "ports": [
                 {
-                    "output": "g6",
-                    "type": "png"
-                }
-            ],
-            "source": "script3020.R",
-            "target": "plot5509.png"
-        },
-        {
-            "ports": [
-                {
                     "output": "g8",
                     "type": "png"
                 }
@@ -208,12 +198,9 @@
             "name": "plot8397.png"
         },
         {
-            "name": "plot5509.png"
-        },
-        {
             "name": "plot4863.png"
         }
     ],
-    "updated_at": "2018-10-11 01:02:29",
+    "updated_at": "2018-10-11 01:03:20",
     "url": "https://github.com/fall2018-saltz/ggplot"
 }
