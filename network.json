@@ -251,11 +251,11 @@
         },
         {
             "assigned_to": "sahmed",
-            "desc": "Histogram and different bar graphs are generated",
+            "desc": "Histogram and different box plot graphs are generated",
             "name": "script2537.R",
             "task_status": "completed"
         }
     ],
-    "updated_at": "2018-10-11 02:28:44",
+    "updated_at": "2018-10-11 02:29:05",
     "url": "https://github.com/fall2018-saltz/ggplot"
 }
