@@ -234,12 +234,6 @@
         {
             "assigned_to": "sahmed",
             "desc": "",
-            "name": "script2537.R",
-            "task_status": "completed"
-        },
-        {
-            "assigned_to": "sahmed",
-            "desc": "",
             "name": "scatter.R",
             "task_status": "in progress"
         },
@@ -254,8 +248,14 @@
             "desc": "Different bar graphs are ploted",
             "name": "script3020.R",
             "task_status": "in progress"
+        },
+        {
+            "assigned_to": "sahmed",
+            "desc": "Histogram and different bar graphs are generated",
+            "name": "script2537.R",
+            "task_status": "completed"
         }
     ],
-    "updated_at": "2018-10-11 02:12:52",
+    "updated_at": "2018-10-11 02:28:34",
     "url": "https://github.com/fall2018-saltz/ggplot"
 }
