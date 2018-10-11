@@ -67,46 +67,6 @@
         {
             "ports": [
                 {
-                    "output": "g5",
-                    "type": "png"
-                }
-            ],
-            "source": "script2537.R",
-            "target": "plot6162.png"
-        },
-        {
-            "ports": [
-                {
-                    "output": "g6",
-                    "type": "png"
-                }
-            ],
-            "source": "script2537.R",
-            "target": "plot2501.png"
-        },
-        {
-            "ports": [
-                {
-                    "output": "g7",
-                    "type": "png"
-                }
-            ],
-            "source": "script2537.R",
-            "target": "plot6527.png"
-        },
-        {
-            "ports": [
-                {
-                    "output": "g8",
-                    "type": "png"
-                }
-            ],
-            "source": "script2537.R",
-            "target": "plot2662.png"
-        },
-        {
-            "ports": [
-                {
                     "output": "h2",
                     "type": "png"
                 }
@@ -133,6 +93,96 @@
             ],
             "source": "script2537.R",
             "target": "plot3878.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "g1",
+                    "type": "png"
+                }
+            ],
+            "source": "script2537.R",
+            "target": "plot2480.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "result",
+                    "type": "csv"
+                }
+            ],
+            "source": "data.csv",
+            "target": "bar_graph.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "g5",
+                    "type": "png"
+                }
+            ],
+            "source": "bar_graph.R",
+            "target": "plot8397.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "g7",
+                    "type": "png"
+                }
+            ],
+            "source": "bar_graph.R",
+            "target": "plot6527.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "g6",
+                    "type": "png"
+                }
+            ],
+            "source": "bar_graph.R",
+            "target": "plot6837.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "g8",
+                    "type": "png"
+                }
+            ],
+            "source": "bar_graph.R",
+            "target": "plot2469.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "result",
+                    "type": "csv"
+                }
+            ],
+            "source": "data.csv",
+            "target": "scatter.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "g9",
+                    "type": "png"
+                }
+            ],
+            "source": "scatter.R",
+            "target": "g9.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "result",
+                    "type": "csv"
+                }
+            ],
+            "source": "bar_graph.R",
+            "target": "result.csv"
         }
     ],
     "nodes": [
@@ -146,34 +196,13 @@
             "name": "plot97.png"
         },
         {
-            "assigned_to": "sahmed",
-            "desc": "",
-            "name": "script2537.R",
-            "task_status": "in progress"
-        },
-        {
-            "assigned_to": "sahmed",
-            "desc": "",
-            "name": "clean.R",
-            "task_status": "completed"
-        },
-        {
             "name": "plot9609.png"
         },
         {
             "name": "plot8583.png"
         },
         {
-            "name": "plot6162.png"
-        },
-        {
-            "name": "plot2501.png"
-        },
-        {
             "name": "plot6527.png"
-        },
-        {
-            "name": "plot2662.png"
         },
         {
             "name": "plot2765.png"
@@ -183,8 +212,50 @@
         },
         {
             "name": "plot3878.png"
+        },
+        {
+            "name": "plot2480.png"
+        },
+        {
+            "name": "plot8397.png"
+        },
+        {
+            "name": "plot6837.png"
+        },
+        {
+            "name": "plot2469.png"
+        },
+        {
+            "name": "g9.png"
+        },
+        {
+            "assigned_to": "sahmed",
+            "desc": "",
+            "name": "scatter.R",
+            "task_status": "completed"
+        },
+        {
+            "assigned_to": "sahmed",
+            "desc": "Histogram and different box plot graphs are generated",
+            "name": "script2537.R",
+            "task_status": "completed"
+        },
+        {
+            "assigned_to": "sahmed",
+            "desc": "Data is cleaned. Unwanted rows and columns are deleted.",
+            "name": "clean.R",
+            "task_status": "completed"
+        },
+        {
+            "name": "result.csv"
+        },
+        {
+            "assigned_to": "sahmed",
+            "desc": "Different bar graphs are ploted",
+            "name": "bar_graph.R",
+            "task_status": "completed"
         }
     ],
-    "updated_at": "2018-10-10 05:29:34",
+    "updated_at": "2018-10-11 03:19:56",
     "url": "https://github.com/fall2018-saltz/ggplot"
 }
