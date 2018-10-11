@@ -196,12 +196,6 @@
             "name": "plot97.png"
         },
         {
-            "assigned_to": "sahmed",
-            "desc": "",
-            "name": "clean.R",
-            "task_status": "completed"
-        },
-        {
             "name": "plot9609.png"
         },
         {
@@ -254,8 +248,14 @@
             "desc": "Different bar graphs are ploted",
             "name": "bar_graph.R",
             "task_status": "completed"
+        },
+        {
+            "assigned_to": "sahmed",
+            "desc": "Data is cleaned. Unwanted rows and columns are deleted.",
+            "name": "clean.R",
+            "task_status": "completed"
         }
     ],
-    "updated_at": "2018-10-11 02:30:09",
+    "updated_at": "2018-10-11 02:30:45",
     "url": "https://github.com/fall2018-saltz/ggplot"
 }
