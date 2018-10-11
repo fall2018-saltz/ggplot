@@ -7,6 +7,9 @@ states_mur_tot<- summarise(result_group, tot_mur= sum(result$Murder)) ## summari
 #states_mur_tot is a dataframe consisting of sates and their murder rate
 states_mur_tot
 
+result$tot_mur= (result$population/100000)* result$Murder
+result$states_mur= round(result$tot_mur)
+
 ## To plot a bar graph, geom_col()cis used. Here states names are taken on x axis and murder rate on y axis.
 g5<-ggplot(result, aes(x= result$n , y= result$Murder)) + geom_col( color="blue", fill="white") 
 g5
