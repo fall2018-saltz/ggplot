@@ -137,7 +137,7 @@
         {
             "ports": [
                 {
-                    "output": "g5",
+                    "output": "g6",
                     "type": "png"
                 }
             ],
@@ -201,6 +201,6 @@
             "name": "plot5509.png"
         }
     ],
-    "updated_at": "2018-10-10 19:58:41",
+    "updated_at": "2018-10-11 01:02:05",
     "url": "https://github.com/fall2018-saltz/ggplot"
 }
