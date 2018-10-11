@@ -173,16 +173,6 @@
             ],
             "source": "scatter.R",
             "target": "g9.png"
-        },
-        {
-            "ports": [
-                {
-                    "output": "states_mur_tot",
-                    "type": "csv"
-                }
-            ],
-            "source": "bar_graph.R",
-            "target": "states_mur_tot.csv"
         }
     ],
     "nodes": [
@@ -229,9 +219,6 @@
             "name": "g9.png"
         },
         {
-            "name": "states_mur_tot.csv"
-        },
-        {
             "assigned_to": "sahmed",
             "desc": "",
             "name": "scatter.R",
@@ -256,6 +243,6 @@
             "task_status": "completed"
         }
     ],
-    "updated_at": "2018-10-11 02:30:45",
+    "updated_at": "2018-10-11 03:11:51",
     "url": "https://github.com/fall2018-saltz/ggplot"
 }
