@@ -168,12 +168,6 @@
         {
             "assigned_to": "sahmed",
             "desc": "",
-            "name": "script2537.R",
-            "task_status": "in progress"
-        },
-        {
-            "assigned_to": "sahmed",
-            "desc": "",
             "name": "clean.R",
             "task_status": "completed"
         },
@@ -212,8 +206,14 @@
         },
         {
             "name": "plot2469.png"
+        },
+        {
+            "assigned_to": "sahmed",
+            "desc": "",
+            "name": "script2537.R",
+            "task_status": "completed"
         }
     ],
-    "updated_at": "2018-10-11 01:12:06",
+    "updated_at": "2018-10-11 01:18:13",
     "url": "https://github.com/fall2018-saltz/ggplot"
 }
