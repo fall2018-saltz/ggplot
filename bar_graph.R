@@ -1,9 +1,10 @@
 
 library(ggplot2) ##library() is used to unpack the gglpot2 package and be able to use the functions within it is 
 
-result$tot_mur= (result$population/100000)* result$Murder
-result$states_mur= round(result$tot_mur)
+result$tot_mur= (result$population/100000)* result$Murder ## A new column is created in the result dataframe which has the total number of murders in each state. 
+result$states_mur= round(result$tot_mur) ## tot_mur is in decimal and hence round() is used to round off the values
 result
+
 ## To plot a bar graph, geom_col()cis used. Here states names are taken on x axis and no.of murders on y axis.
 g5<-ggplot(result, aes(x= result$n , y= result$states_mur)) + geom_col( color="blue", fill="white") 
 g5
