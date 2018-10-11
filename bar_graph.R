@@ -1,12 +1,10 @@
 
 library(ggplot2) ##library() is used to unpack the gglpot2 package and be able to use the functions within it is 
 
-
-
 result$tot_mur= (result$population/100000)* result$Murder
 result$states_mur= round(result$tot_mur)
 result
-## To plot a bar graph, geom_col()cis used. Here states names are taken on x axis and murder rate on y axis.
+## To plot a bar graph, geom_col()cis used. Here states names are taken on x axis and no.of murders on y axis.
 g5<-ggplot(result, aes(x= result$n , y= result$states_mur)) + geom_col( color="blue", fill="white") 
 g5
 
