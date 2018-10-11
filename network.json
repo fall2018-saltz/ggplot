@@ -223,12 +223,6 @@
             "name": "plot2480.png"
         },
         {
-            "assigned_to": "sahmed",
-            "desc": "",
-            "name": "script3020.R",
-            "task_status": "in progress"
-        },
-        {
             "name": "plot8397.png"
         },
         {
@@ -254,8 +248,14 @@
         },
         {
             "name": "csvfile1680.csv"
+        },
+        {
+            "assigned_to": "sahmed",
+            "desc": "Different bar graphs are ploted",
+            "name": "script3020.R",
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-11 02:12:13",
+    "updated_at": "2018-10-11 02:12:52",
     "url": "https://github.com/fall2018-saltz/ggplot"
 }
