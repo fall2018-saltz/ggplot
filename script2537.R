@@ -6,15 +6,15 @@ g1<- ggplot(result, aes(x= result$population)) + geom_histogram(binwidth= 779147
 g1
 
 #To plot a histogram of Murder rate geom_histogram() is used and binwidth is taken 1. 
-g2<- ggplot(result, aes(x= result$Murder)) + geom_histogram(binwidth = 1, color = "black", fill= "white")+ ggtitle("states murder rate")
+g2<- ggplot(result, aes(x= result$Murder)) + geom_histogram(binwidth = 1, color = "black", fill= "white")+ ggtitle("states murder rate") + labs(x= "Murder rate")
 g2
 
 ## To plot Assult rate, rape rate, Urban Population, same code is used but the arguments to aes will change. Also the binwidth will change depending upon the variable and its range.
-h1<- ggplot(result, aes(x= result$Assault)) + geom_histogram(binwidth = 5, color = "black", fill= "white")+ ggtitle("states assult rate")
+h1<- ggplot(result, aes(x= result$Assault)) + geom_histogram(binwidth = 5, color = "black", fill= "white")+ ggtitle("states assult rate") + labs(x= "Assult rate")
 h1
-h2<- ggplot(result, aes(x= result$UrbanPop)) + geom_histogram(binwidth = 1, color = "black", fill= "white")+ ggtitle("states urban popultaion rate")
+h2<- ggplot(result, aes(x= result$UrbanPop)) + geom_histogram(binwidth = 1, color = "black", fill= "white")+ ggtitle("states urban popultaion")+ labs(x= "Urban Population")
 h2
-h3<- ggplot(result, aes(x= result$Rape)) + geom_histogram(binwidth = 5, color = "black", fill= "white")+ ggtitle("states murder rate")
+h3<- ggplot(result, aes(x= result$Rape)) + geom_histogram(binwidth = 5, color = "black", fill= "white")+ ggtitle("states murder rate") + labs(x= "Murder rate")
 h3
 
 #To plot a box plot for population, ggplot() and geom_boxplot() are used with aes as an argument taking population on y axis. 
