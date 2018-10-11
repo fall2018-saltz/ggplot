@@ -173,6 +173,16 @@
             ],
             "source": "scatter.R",
             "target": "g9.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "result",
+                    "type": "csv"
+                }
+            ],
+            "source": "bar_graph.R",
+            "target": "result.csv"
         }
     ],
     "nodes": [
@@ -246,6 +256,6 @@
             "name": "result.csv"
         }
     ],
-    "updated_at": "2018-10-11 03:12:06",
+    "updated_at": "2018-10-11 03:12:17",
     "url": "https://github.com/fall2018-saltz/ggplot"
 }
