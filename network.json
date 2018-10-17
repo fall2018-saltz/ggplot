@@ -193,6 +193,17 @@
             ],
             "source": "data.csv",
             "target": "merged_data2.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "res",
+                    "output": "res",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "merged_data2.R",
+            "target": "script7404.R"
         }
     ],
     "nodes": [
@@ -278,6 +289,6 @@
             "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-17 17:45:08",
+    "updated_at": "2018-10-17 17:47:09",
     "url": "https://github.com/fall2018-saltz/ggplot"
 }
