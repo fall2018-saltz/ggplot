@@ -9,6 +9,8 @@ res
 
 us <- map_data("state") ##turn data from the maps package in to a data frame suitable for plotting with ggplot2
 res$n<- tolower(res$n) ##state names are converted to lowercase
+
+## To create a color coded map of us states based on area
 mp_det <- ggplot(res, aes(map_id = n))
 mp_det <- mp_det + geom_map(map = us, aes(fill = state.area), color = "black", na.rm = TRUE)
 mp_det <- mp_det + expand_limits(x = us$long, y = us$lat)
@@ -20,7 +22,7 @@ mp_det1 <- ggplot(res, aes(map_id = n))
 mp_det1 <- mp_det1 + geom_map(map = us, aes(fill = res$Murder), color = "black", na.rm = TRUE)
 mp_det1 <- mp_det1 + expand_limits(x = us$long, y = us$lat)
 mp_det1 <- mp_det1 + scale_fill_gradient(low = "white", high = "red", guide = "colorbar") 
-mp_det1 <- mp_det1 + ggtitle("Area of states") + labs(x = "Longitude", y = "Latitude") 
+mp_det1 <- mp_det1 + ggtitle("Murder rate of states") + labs(x = "Longitude", y = "Latitude") 
 mp_det1
 
 mp_det2<- mp_det+ geom_point( data=res, aes(x= x, y= y, size= res$population))
