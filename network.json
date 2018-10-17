@@ -283,8 +283,12 @@
         },
         {
             "name": "csvfile8254.csv"
+        },
+        {
+            "desc": "different types of maps are created using ggmap",
+            "name": "script7404.R"
         }
     ],
-    "updated_at": "2018-10-17 17:34:23",
+    "updated_at": "2018-10-17 17:36:31",
     "url": "https://github.com/fall2018-saltz/ggplot"
 }
