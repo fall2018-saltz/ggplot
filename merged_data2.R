@@ -27,6 +27,6 @@ mp_det2+ ggtitle("Population of states")
 mp_det2
 
 latlon.nyc<- geocode(source = "dsk", "NYC, ny")
-mp_det3<- mp_det1 + geom_point(aes(x= latlon.nyc$lon, y= latlon.nyc$lat), color= "darkred", size= 3)
-mp_det3<- mp_det1 + xlim(latlon.nyc$lon-10, latlon.nyc$lon+10) + ylim(latlon.nyc$lat-10,latlon.nyc$lat+10)
+mp_det3<- mp_det2 + geom_point(aes(x= latlon.nyc$lon, y= latlon.nyc$lat), color= "darkred", size= 3)
+mp_det3<- mp_det2 + xlim(latlon.nyc$lon-10, latlon.nyc$lon+10) + ylim(latlon.nyc$lat-10,latlon.nyc$lat+10)
 mp_det3
