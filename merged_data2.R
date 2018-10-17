@@ -29,7 +29,7 @@ mp_det1
 
 
 ## To create a map with size of circles showing the population size of each state.
-mp_det2<- mp_det+ geom_point( data=res, aes(x= x, y= y, size= res$population)) ## previous map is used and circles based on population size are plotted on it uising geom_point()
+mp_det2<- mp_det+ geom_point( data=res, aes(x= x, y= y, size= res$population)) ## US map based on area is used and circles based on population size are plotted on it uising geom_point()
 mp_det2+ ggtitle("Population of states") ## Title is given to the plot 
 mp_det2
 
