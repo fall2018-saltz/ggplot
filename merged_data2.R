@@ -28,17 +28,18 @@ mp_det1 <- mp_det1 + ggtitle("Murder rate of states") + labs(x = "Longitude", y 
 mp_det1
 
 
-## To create a map with size of circles showing the population size of each state.
-mp_det2<- mp_det+ geom_point( data=res, aes(x= x, y= y, size= res$population)) ## US map based on area is used and circles based on population size are plotted on it uising geom_point()
+## To create a map with size of circles showing the population size of each state using the color coded map showing US states based on area.
+mp_det2<- mp_det+ geom_point( data=res, aes(x= x, y= y, size= res$population)) ## US map based on area is used and circles based on population size are plotted on it using geom_point()
 mp_det2+ ggtitle("Population of states") ## Title is given to the plot 
 mp_det2
 
-mp_det3<- mp_det1+ geom_point( data=res, aes(x= x, y= y, size= res$population)) ## US map based on area is used and circles based on population size are plotted on it uising geom_point()
+##To create a map where size of circles show the population size of each state using the map showing the murder rate in different states.
+mp_det3<- mp_det1+ geom_point( data=res, aes(x= x, y= y, size= res$population)) ## US map based on murder rate is used and circles based on population size are plotted on it using geom_point()
 mp_det3+ ggtitle("Population of states") ## Title is given to the plot 
 mp_det3
 
 ## To create a map showing only the states in North East.
 latlon.nyc<- geocode(source = "dsk", "NYC, ny") ## geocode() is used to get the latitude and longitude of NYC
-mp_det4<- mp_det3 + geom_point(aes(x= latlon.nyc$lon, y= latlon.nyc$lat), color= "darkred", size= 3)
-mp_det4<- mp_det3 + xlim(latlon.nyc$lon-10, latlon.nyc$lon+10) + ylim(latlon.nyc$lat-10,latlon.nyc$lat+10)
+mp_det4<- mp_det3 + geom_point(aes(x= latlon.nyc$lon, y= latlon.nyc$lat), color= "darkred", size= 3) ## US state map showing the murder rate and population size is used.
+mp_det4<- mp_det3 + xlim(latlon.nyc$lon-10, latlon.nyc$lon+10) + ylim(latlon.nyc$lat-10,latlon.nyc$lat+10) ## xlim() and ylim() are used to limit  
 mp_det4
