@@ -197,16 +197,6 @@
         {
             "ports": [
                 {
-                    "output": "mp_det",
-                    "type": "png"
-                }
-            ],
-            "source": "merged_data2.R",
-            "target": "USstates_area.png"
-        },
-        {
-            "ports": [
-                {
                     "output": "mp_det1",
                     "type": "png"
                 }
@@ -316,9 +306,6 @@
             "task_status": "completed"
         },
         {
-            "name": "USstates_area.png"
-        },
-        {
             "name": "plot2915.png"
         },
         {
@@ -337,6 +324,6 @@
             "task_status": "completed"
         }
     ],
-    "updated_at": "2018-10-17 23:57:46",
+    "updated_at": "2018-10-17 23:58:31",
     "url": "https://github.com/fall2018-saltz/ggplot"
 }
