@@ -11,20 +11,21 @@ us <- map_data("state") ##turn data from the maps package in to a data frame sui
 res$n<- tolower(res$n) ##state names are converted to lowercase
 
 ## To create a color coded map of us states based on area
-mp_det <- ggplot(res, aes(map_id = n))
-mp_det <- mp_det + geom_map(map = us, aes(fill = state.area), color = "black", na.rm = TRUE)
-mp_det <- mp_det + expand_limits(x = us$long, y = us$lat)
-mp_det <- mp_det + scale_fill_gradient(low = "white", high = "blue", guide = "colorbar") 
-mp_det <- mp_det + ggtitle("Area of states") + labs(x = "Longitude", y = "Latitude") 
+mp_det <- ggplot(res, aes(map_id = n)) ## ggplot() is used to plot the graph using the states.
+mp_det <- mp_det + geom_map(map = us, aes(fill = state.area), color = "black", na.rm = TRUE)## geom_map() is used to give the geometry of the map. aes() takes area as the fill since the graph showcases the states based on area.
+mp_det <- mp_det + expand_limits(x = us$long, y = us$lat)## expand_limits() used to give the Latitude and Longitude values of the plot.
+mp_det <- mp_det + scale_fill_gradient(low = "white", high = "blue", guide = "colorbar") ## scale scale_fill_gradient() is used to give the color to be filled.
+mp_det <- mp_det + ggtitle("Area of states") + labs(x = "Longitude", y = "Latitude") ##labs() is used to label the axis
+mp_det1
 mp_det
 
 
 ## To create a color coded map for us states based on the murder rate.
-mp_det1 <- ggplot(res, aes(map_id = n))
-mp_det1 <- mp_det1 + geom_map(map = us, aes(fill = res$Murder), color = "black", na.rm = TRUE)
-mp_det1 <- mp_det1 + expand_limits(x = us$long, y = us$lat)
-mp_det1 <- mp_det1 + scale_fill_gradient(low = "white", high = "red", guide = "colorbar") 
-mp_det1 <- mp_det1 + ggtitle("Murder rate of states") + labs(x = "Longitude", y = "Latitude") 
+mp_det1 <- ggplot(res, aes(map_id = n))## ggplot() is used to plot the graph using the states.
+mp_det1 <- mp_det1 + geom_map(map = us, aes(fill = res$Murder), color = "black", na.rm = TRUE) ## geom_map() is used to give the geometry of the map. aes() takes murder rate as the fill since the graph showcases the states based on murder rate.
+mp_det1 <- mp_det1 + expand_limits(x = us$long, y = us$lat) ## expand_limits() used to give the Latitude and Longitude values of the plot.
+mp_det1 <- mp_det1 + scale_fill_gradient(low = "white", high = "red", guide = "colorbar") ## scale scale_fill_gradient() is used to give the color to be filled.
+mp_det1 <- mp_det1 + ggtitle("Murder rate of states") + labs(x = "Longitude", y = "Latitude") ##labs() is used to label the axis
 mp_det1
 
 
@@ -42,4 +43,4 @@ mp_det3
 latlon.nyc<- geocode(source = "dsk", "NYC, ny") ## geocode() is used to get the latitude and longitude of NYC
 mp_det4<- mp_det3 + geom_point(aes(x= latlon.nyc$lon, y= latlon.nyc$lat), color= "darkred", size= 3) ## US state map showing the murder rate and population size is used.
 mp_det4<- mp_det3 + xlim(latlon.nyc$lon-10, latlon.nyc$lon+10) + ylim(latlon.nyc$lat-10,latlon.nyc$lat+10) ## xlim() and ylim() are used to limit  
-mp_det4
+mp_det4 + ggtitle("Population of NYC")
