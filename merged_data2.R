@@ -16,7 +16,6 @@ mp_det <- mp_det + geom_map(map = us, aes(fill = state.area), color = "black", n
 mp_det <- mp_det + expand_limits(x = us$long, y = us$lat)## expand_limits() used to give the Latitude and Longitude values of the plot.
 mp_det <- mp_det + scale_fill_gradient(low = "white", high = "blue", guide = "colorbar") ## scale scale_fill_gradient() is used to give the color to be filled.
 mp_det <- mp_det + ggtitle("Area of states") + labs(x = "Longitude", y = "Latitude") ##labs() is used to label the axis
-mp_det1
 mp_det
 
 
