@@ -27,8 +27,10 @@ mp_det1 <- mp_det1 + scale_fill_gradient(low = "white", high = "red", guide = "c
 mp_det1 <- mp_det1 + ggtitle("Murder rate of states") + labs(x = "Longitude", y = "Latitude") 
 mp_det1
 
-mp_det2<- mp_det+ geom_point( data=res, aes(x= x, y= y, size= res$population))
-mp_det2+ ggtitle("Population of states")
+
+## To create a map with size of circles showing the population size of each state.
+mp_det2<- mp_det+ geom_point( data=res, aes(x= x, y= y, size= res$population)) ## previous map is used and circles based on population size are plotted on it uising geom_point()
+mp_det2+ ggtitle("Population of states") ## Title is given to the plot 
 mp_det2
 
 latlon.nyc<- geocode(source = "dsk", "NYC, ny")
