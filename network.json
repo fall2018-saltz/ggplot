@@ -202,7 +202,7 @@
                 }
             ],
             "source": "merged_data2.R",
-            "target": "plot2025.png"
+            "target": "USstates_area.png"
         },
         {
             "ports": [
@@ -316,7 +316,7 @@
             "task_status": "completed"
         },
         {
-            "name": "plot2025.png"
+            "name": "USstates_area.png"
         },
         {
             "name": "plot2915.png"
@@ -337,6 +337,6 @@
             "task_status": "completed"
         }
     ],
-    "updated_at": "2018-10-17 23:51:58",
+    "updated_at": "2018-10-17 23:57:46",
     "url": "https://github.com/fall2018-saltz/ggplot"
 }
