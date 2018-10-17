@@ -266,10 +266,15 @@
             "task_status": "completed"
         },
         {
+            "assigned_to": "sahmed",
             "desc": "the merged dataset set is merged with a new dataset that contains state name, centre, area and latitude and longitude.",
-            "name": "merged_data2.R"
+            "name": "merged_data2.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "csvfile8254.csv"
         }
     ],
-    "updated_at": "2018-10-17 17:29:01",
+    "updated_at": "2018-10-17 17:33:33",
     "url": "https://github.com/fall2018-saltz/ggplot"
 }
