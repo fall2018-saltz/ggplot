@@ -193,26 +193,6 @@
             ],
             "source": "data.csv",
             "target": "merged_data2.R"
-        },
-        {
-            "ports": [
-                {
-                    "output": "res",
-                    "type": "csv"
-                }
-            ],
-            "source": "merged_data2.R",
-            "target": "csvfile8254.csv"
-        },
-        {
-            "ports": [
-                {
-                    "input": "res",
-                    "type": "csv"
-                }
-            ],
-            "source": "csvfile8254.csv",
-            "target": "script7404.R"
         }
     ],
     "nodes": [
@@ -292,13 +272,12 @@
             "task_status": "in progress"
         },
         {
-            "name": "csvfile8254.csv"
-        },
-        {
+            "assigned_to": "sahmed",
             "desc": "different types of maps are created using ggmap",
-            "name": "script7404.R"
+            "name": "script7404.R",
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-17 17:36:44",
+    "updated_at": "2018-10-17 17:45:08",
     "url": "https://github.com/fall2018-saltz/ggplot"
 }
