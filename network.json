@@ -193,17 +193,6 @@
             ],
             "source": "data.csv",
             "target": "merged_data2.R"
-        },
-        {
-            "ports": [
-                {
-                    "input": "res",
-                    "output": "res",
-                    "type": "r_obj"
-                }
-            ],
-            "source": "merged_data2.R",
-            "target": "script7404.R"
         }
     ],
     "nodes": [
@@ -281,14 +270,8 @@
             "desc": "the merged dataset set is merged with a new dataset that contains state name, centre, area and latitude and longitude.",
             "name": "merged_data2.R",
             "task_status": "in progress"
-        },
-        {
-            "assigned_to": "sahmed",
-            "desc": "different types of maps are created using ggmap",
-            "name": "script7404.R",
-            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-17 17:47:09",
+    "updated_at": "2018-10-17 17:48:48",
     "url": "https://github.com/fall2018-saltz/ggplot"
 }
