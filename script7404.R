@@ -1,4 +1,8 @@
 
+library(ggmap)
+dfs<- data.frame(state.name,state.center,state.area, stringsAsFactors = F)
+res<- merge(result,dfs, by.x= result$n, by.y= dfs$state.name, stringsAsFactors= FALSE)
+
 us <- map_data("state")
 res$n<- tolower(res$n)
 mp_det <- ggplot(res, aes(map_id = n))
