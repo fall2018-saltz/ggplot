@@ -183,6 +183,16 @@
             ],
             "source": "bar_graph.R",
             "target": "result.csv"
+        },
+        {
+            "ports": [
+                {
+                    "input": "result",
+                    "type": "csv"
+                }
+            ],
+            "source": "data.csv",
+            "target": "merged_data2.R"
         }
     ],
     "nodes": [
@@ -260,6 +270,6 @@
             "name": "merged_data2.R"
         }
     ],
-    "updated_at": "2018-10-17 17:27:59",
+    "updated_at": "2018-10-17 17:29:01",
     "url": "https://github.com/fall2018-saltz/ggplot"
 }
