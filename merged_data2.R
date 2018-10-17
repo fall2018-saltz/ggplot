@@ -1,4 +1,5 @@
 
+library(ggplot2)
 library(ggmap)
 dfs<- data.frame(state.name,state.center,state.area, stringsAsFactors = F)
  
