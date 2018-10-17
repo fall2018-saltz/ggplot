@@ -254,8 +254,12 @@
             "desc": "Different bar graphs are ploted",
             "name": "bar_graph.R",
             "task_status": "completed"
+        },
+        {
+            "desc": "the merged dataset set is merged with a new dataset that contains state name, centre, area and latitude and longitude.",
+            "name": "merged_data2.R"
         }
     ],
-    "updated_at": "2018-10-11 03:19:56",
+    "updated_at": "2018-10-17 17:27:59",
     "url": "https://github.com/fall2018-saltz/ggplot"
 }
