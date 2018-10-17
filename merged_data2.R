@@ -18,6 +18,8 @@ mp_det <- mp_det + scale_fill_gradient(low = "white", high = "blue", guide = "co
 mp_det <- mp_det + ggtitle("Area of states") + labs(x = "Longitude", y = "Latitude") 
 mp_det
 
+
+## To create a color coded map for us states based on the murder rate.
 mp_det1 <- ggplot(res, aes(map_id = n))
 mp_det1 <- mp_det1 + geom_map(map = us, aes(fill = res$Murder), color = "black", na.rm = TRUE)
 mp_det1 <- mp_det1 + expand_limits(x = us$long, y = us$lat)
