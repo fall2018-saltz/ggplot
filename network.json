@@ -237,7 +237,7 @@
         {
             "ports": [
                 {
-                    "output": "map_det4",
+                    "output": "mp_det4",
                     "type": "png"
                 }
             ],
@@ -337,6 +337,6 @@
             "name": "plot253.png"
         }
     ],
-    "updated_at": "2018-10-17 23:16:22",
+    "updated_at": "2018-10-17 23:21:51",
     "url": "https://github.com/fall2018-saltz/ggplot"
 }
