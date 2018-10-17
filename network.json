@@ -233,6 +233,16 @@
             ],
             "source": "merged_data2.R",
             "target": "plot253.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "mp_det",
+                    "type": "png"
+                }
+            ],
+            "source": "merged_data2.R",
+            "target": "plot32.png"
         }
     ],
     "nodes": [
@@ -327,6 +337,6 @@
             "name": "plot32.png"
         }
     ],
-    "updated_at": "2018-10-17 23:58:38",
+    "updated_at": "2018-10-17 23:58:58",
     "url": "https://github.com/fall2018-saltz/ggplot"
 }
