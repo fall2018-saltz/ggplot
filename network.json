@@ -316,12 +316,6 @@
             "task_status": "completed"
         },
         {
-            "assigned_to": "sahmed",
-            "desc": "the merged dataset set is merged with a new dataset that contains state name, centre, area and latitude and longitude.",
-            "name": "merged_data2.R",
-            "task_status": "in progress"
-        },
-        {
             "name": "plot2025.png"
         },
         {
@@ -335,8 +329,14 @@
         },
         {
             "name": "plot253.png"
+        },
+        {
+            "assigned_to": "sahmed",
+            "desc": "The merged dataset set is merged with a new dataset that contains state name, centre, area and latitude and longitude and then different types of maps are plotted using ggmaps.",
+            "name": "merged_data2.R",
+            "task_status": "completed"
         }
     ],
-    "updated_at": "2018-10-17 23:21:51",
+    "updated_at": "2018-10-17 23:51:58",
     "url": "https://github.com/fall2018-saltz/ggplot"
 }
