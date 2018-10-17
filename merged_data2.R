@@ -42,4 +42,5 @@ mp_det3
 latlon.nyc<- geocode(source = "dsk", "NYC, ny") ## geocode() is used to get the latitude and longitude of NYC
 mp_det4<- mp_det3 + geom_point(aes(x= latlon.nyc$lon, y= latlon.nyc$lat), color= "darkred", size= 3) ## US state map showing the murder rate and population size is used.
 mp_det4<- mp_det3 + xlim(latlon.nyc$lon-10, latlon.nyc$lon+10) + ylim(latlon.nyc$lat-10,latlon.nyc$lat+10) ## xlim() and ylim() are used to limit  
-mp_det4 + ggtitle("Population of NYC")
+mp_det4<- mp_det4 + ggtitle("Population of NYC")
+mp_det4
