@@ -33,9 +33,12 @@ mp_det2<- mp_det+ geom_point( data=res, aes(x= x, y= y, size= res$population)) #
 mp_det2+ ggtitle("Population of states") ## Title is given to the plot 
 mp_det2
 
+mp_det3<- mp_det1+ geom_point( data=res, aes(x= x, y= y, size= res$population)) ## US map based on area is used and circles based on population size are plotted on it uising geom_point()
+mp_det3+ ggtitle("Population of states") ## Title is given to the plot 
+mp_det3
 
 ## To create a map showing only the states in North East.
 latlon.nyc<- geocode(source = "dsk", "NYC, ny") ## geocode() is used to get the latitude and longitude of NYC
-mp_det3<- mp_det2 + geom_point(aes(x= latlon.nyc$lon, y= latlon.nyc$lat), color= "darkred", size= 3)
-mp_det3<- mp_det2 + xlim(latlon.nyc$lon-10, latlon.nyc$lon+10) + ylim(latlon.nyc$lat-10,latlon.nyc$lat+10)
-mp_det3
+mp_det4<- mp_det3 + geom_point(aes(x= latlon.nyc$lon, y= latlon.nyc$lat), color= "darkred", size= 3)
+mp_det4<- mp_det3 + xlim(latlon.nyc$lon-10, latlon.nyc$lon+10) + ylim(latlon.nyc$lat-10,latlon.nyc$lat+10)
+mp_det4
