@@ -183,6 +183,66 @@
             ],
             "source": "bar_graph.R",
             "target": "result.csv"
+        },
+        {
+            "ports": [
+                {
+                    "input": "result",
+                    "type": "csv"
+                }
+            ],
+            "source": "data.csv",
+            "target": "merged_data2.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "mp_det1",
+                    "type": "png"
+                }
+            ],
+            "source": "merged_data2.R",
+            "target": "plot2915.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "mp_det2",
+                    "type": "png"
+                }
+            ],
+            "source": "merged_data2.R",
+            "target": "plot1744.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "mp_det3",
+                    "type": "png"
+                }
+            ],
+            "source": "merged_data2.R",
+            "target": "plot5304.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "mp_det4",
+                    "type": "png"
+                }
+            ],
+            "source": "merged_data2.R",
+            "target": "plot253.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "mp_det",
+                    "type": "png"
+                }
+            ],
+            "source": "merged_data2.R",
+            "target": "plot32.png"
         }
     ],
     "nodes": [
@@ -254,8 +314,29 @@
             "desc": "Different bar graphs are ploted",
             "name": "bar_graph.R",
             "task_status": "completed"
+        },
+        {
+            "name": "plot2915.png"
+        },
+        {
+            "name": "plot1744.png"
+        },
+        {
+            "name": "plot5304.png"
+        },
+        {
+            "name": "plot253.png"
+        },
+        {
+            "assigned_to": "sahmed",
+            "desc": "The merged dataset set is merged with a new dataset that contains state name, centre, area and latitude and longitude and then different types of maps are plotted using ggmaps.",
+            "name": "merged_data2.R",
+            "task_status": "completed"
+        },
+        {
+            "name": "plot32.png"
         }
     ],
-    "updated_at": "2018-10-11 03:19:56",
+    "updated_at": "2018-10-17 23:58:58",
     "url": "https://github.com/fall2018-saltz/ggplot"
 }
