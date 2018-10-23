@@ -1,0 +1,342 @@
+{
+    "collaborators": [
+        "sahmed"
+    ],
+    "created_at": "2018-10-04 15:06:46",
+    "edges": [
+        {
+            "ports": [
+                {
+                    "input": "raw_data",
+                    "type": "csv"
+                }
+            ],
+            "source": "scprc_est_2017_18_pop_res.csv",
+            "target": "clean.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "result",
+                    "type": "csv"
+                }
+            ],
+            "source": "clean.R",
+            "target": "data.csv"
+        },
+        {
+            "ports": [
+                {
+                    "input": "result",
+                    "type": "csv"
+                }
+            ],
+            "source": "data.csv",
+            "target": "script2537.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "g2",
+                    "type": "png"
+                }
+            ],
+            "source": "script2537.R",
+            "target": "plot97.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "g3",
+                    "type": "png"
+                }
+            ],
+            "source": "script2537.R",
+            "target": "plot9609.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "g4",
+                    "type": "png"
+                }
+            ],
+            "source": "script2537.R",
+            "target": "plot8583.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "h2",
+                    "type": "png"
+                }
+            ],
+            "source": "script2537.R",
+            "target": "plot2137.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "h3",
+                    "type": "png"
+                }
+            ],
+            "source": "script2537.R",
+            "target": "plot2765.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "h1",
+                    "type": "png"
+                }
+            ],
+            "source": "script2537.R",
+            "target": "plot3878.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "g1",
+                    "type": "png"
+                }
+            ],
+            "source": "script2537.R",
+            "target": "plot2480.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "result",
+                    "type": "csv"
+                }
+            ],
+            "source": "data.csv",
+            "target": "bar_graph.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "g5",
+                    "type": "png"
+                }
+            ],
+            "source": "bar_graph.R",
+            "target": "plot8397.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "g7",
+                    "type": "png"
+                }
+            ],
+            "source": "bar_graph.R",
+            "target": "plot6527.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "g6",
+                    "type": "png"
+                }
+            ],
+            "source": "bar_graph.R",
+            "target": "plot6837.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "g8",
+                    "type": "png"
+                }
+            ],
+            "source": "bar_graph.R",
+            "target": "plot2469.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "result",
+                    "type": "csv"
+                }
+            ],
+            "source": "data.csv",
+            "target": "scatter.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "g9",
+                    "type": "png"
+                }
+            ],
+            "source": "scatter.R",
+            "target": "g9.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "result",
+                    "type": "csv"
+                }
+            ],
+            "source": "bar_graph.R",
+            "target": "result.csv"
+        },
+        {
+            "ports": [
+                {
+                    "input": "result",
+                    "type": "csv"
+                }
+            ],
+            "source": "data.csv",
+            "target": "merged_data2.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "mp_det1",
+                    "type": "png"
+                }
+            ],
+            "source": "merged_data2.R",
+            "target": "plot2915.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "mp_det2",
+                    "type": "png"
+                }
+            ],
+            "source": "merged_data2.R",
+            "target": "plot1744.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "mp_det3",
+                    "type": "png"
+                }
+            ],
+            "source": "merged_data2.R",
+            "target": "plot5304.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "mp_det4",
+                    "type": "png"
+                }
+            ],
+            "source": "merged_data2.R",
+            "target": "plot253.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "mp_det",
+                    "type": "png"
+                }
+            ],
+            "source": "merged_data2.R",
+            "target": "plot32.png"
+        }
+    ],
+    "nodes": [
+        {
+            "name": "scprc_est_2017_18_pop_res.csv"
+        },
+        {
+            "name": "data.csv"
+        },
+        {
+            "name": "plot97.png"
+        },
+        {
+            "name": "plot9609.png"
+        },
+        {
+            "name": "plot8583.png"
+        },
+        {
+            "name": "plot6527.png"
+        },
+        {
+            "name": "plot2765.png"
+        },
+        {
+            "name": "plot2137.png"
+        },
+        {
+            "name": "plot3878.png"
+        },
+        {
+            "name": "plot2480.png"
+        },
+        {
+            "name": "plot8397.png"
+        },
+        {
+            "name": "plot6837.png"
+        },
+        {
+            "name": "plot2469.png"
+        },
+        {
+            "name": "g9.png"
+        },
+        {
+            "assigned_to": "sahmed",
+            "desc": "",
+            "name": "scatter.R",
+            "task_status": "completed"
+        },
+        {
+            "assigned_to": "sahmed",
+            "desc": "Histogram and different box plot graphs are generated",
+            "name": "script2537.R",
+            "task_status": "completed"
+        },
+        {
+            "assigned_to": "sahmed",
+            "desc": "Data is cleaned. Unwanted rows and columns are deleted.",
+            "name": "clean.R",
+            "task_status": "completed"
+        },
+        {
+            "name": "result.csv"
+        },
+        {
+            "assigned_to": "sahmed",
+            "desc": "Different bar graphs are ploted",
+            "name": "bar_graph.R",
+            "task_status": "completed"
+        },
+        {
+            "name": "plot2915.png"
+        },
+        {
+            "name": "plot1744.png"
+        },
+        {
+            "name": "plot5304.png"
+        },
+        {
+            "name": "plot253.png"
+        },
+        {
+            "assigned_to": "sahmed",
+            "desc": "The merged dataset set is merged with a new dataset that contains state name, centre, area and latitude and longitude and then different types of maps are plotted using ggmaps.",
+            "name": "merged_data2.R",
+            "task_status": "completed"
+        },
+        {
+            "name": "plot32.png"
+        }
+    ],
+    "updated_at": "2018-10-17 23:58:58",
+    "url": "https://github.com/fall2018-saltz/ggplot"
+}
